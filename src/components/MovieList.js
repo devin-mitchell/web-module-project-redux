@@ -33,9 +33,8 @@ const MovieList = (props)=> {
 }
 
 const mapStateToProps = (state) => {
-    console.log("PROPS", state.movies)
     return{
-       movies: state.movies
+       movies: state.movie.movies
     }
 }
 
